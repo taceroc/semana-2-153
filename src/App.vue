@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container-fluid">
-      <h2 class="text-center text-white bg-dark">{{titulo_noticias}}</h2>
+      <h2 class="text-center text-white bg-dark">{{ titulo_noticias }}</h2>
       <NoticiaApi></NoticiaApi>
     </div>
   </div>
@@ -10,15 +10,15 @@
 <script>
 import NoticiaApi from "./components/NoticiaApi.vue";
 
-export default{
+export default {
   name: "App",
-  components:{
-      NoticiaApi,
-    },
-  data (){
-    return{
+  components: {
+    NoticiaApi,
+  },
+  data() {
+    return {
       titulo_noticias: "Noticias",
-    }
+    };
   },
 };
 </script>
