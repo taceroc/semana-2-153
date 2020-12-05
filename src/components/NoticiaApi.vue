@@ -1,19 +1,19 @@
 <template>
   <div class="row justify-content-center mt-1">
     <div
-      class="col-sm-6 mb-3"
+      class="col-sm-6 col-xs-12 mb-3"
       v-for="(noticia, index) of noticias"
       v-bind:key="index"
     >
-      <div class="card text-justify bg-light">
-        <h2 class="noticias__card__title p-2">
+      <div class="card text-justify bg-light h-100">
+        <h3 class="p-2 h3-responsive">
           {{ noticia.title }}
-        </h2>
+        </h3>
         <div class="noticias__card__container text-center">
           <img
-            class="card-img-top rounded mx-auto d-block"
+            class="card-img-top rounded mx-auto d-block img-fluid"
             v-bind:src="noticia.image"
-            alt="eganbernal"
+            alt=""
           />
           <p class="p-2 text-justify">
            {{noticia.description}}
@@ -52,8 +52,8 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-    height: 120px;
+h3 {
+    height: 115px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ h2 {
 
 img{
     height: 290px;
-    width: 560px;
+    width: 540px;
 }
 
 </style>
