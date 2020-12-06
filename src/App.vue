@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container-fluid">
-      <h2 class="text-center text-white bg-dark">{{ titulo_noticias }}</h2>
+      <h2 class="text-center text-white bg-dark" id="news">{{ titulo_noticias }}</h2>
       <NoticiaApi></NoticiaApi>
     </div>
   </div>
