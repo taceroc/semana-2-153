@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container-fluid text-center">
-        <h2 class="text-center text-white bg-dark">
+        <h2 id="team" class="text-center text-white bg-dark">
           Integrantes grupo 153
         </h2>
       <div class="row justify-content-center mb-3 mt-0">
@@ -30,7 +30,7 @@ export default {
           codigo: 1,
           nombre: "Tatiana Acero Cuellar",
           descripcion:
-            "Lorem ipsum dolor sit amet, consectetur adipiscingelit. Mauris condimentum ac elit et accumsan.",
+            "Estudiante de Física. Universidad Nacional de Colombia. 22 años. Pasatiempo: Ver anime.",
           rol: "Desarrollador backend",
           image:require('./assets/Tatiana.png')
         },
@@ -38,7 +38,7 @@ export default {
           codigo: 2,
           nombre: "Cristian Camilo Parra Parra",
           descripcion:
-            "Lorem ipsum dolor sit amet, consectetur adipiscingelit. Mauris condimentum ac elit et accumsan.",
+            "Ingeniero Industrial. Universidad de Cundinamarca. 27 años. Pasatiempo: Viajar.",
           rol: "Desarrollador backend",
           image: require('./assets/Camilo.png'),
         },
@@ -46,7 +46,7 @@ export default {
           codigo: 3,
           nombre: "Daniel Picon Agudelo",
           descripcion:
-            "Lorem ipsum dolor sit amet, consectetur adipiscingelit. Mauris condimentum ac elit et accumsan.",
+            "Estudiante de Ingenieria en Computacion. 19 años. Pasatiempo: Jugar videojueos.",
           rol: "Desarrollador backend",
           image: require('./assets/Daniel.png'),
         },
@@ -54,9 +54,9 @@ export default {
           codigo: 4,
           nombre: "Hanssel Neira",
           descripcion:
-            "Lorem ipsum dolor sit amet, consectetur adipiscingelit. Mauris condimentum ac elit et accumsan.",
+            "Estudiante de ingeniería en control y automatización. Universidad Distrital. Amante del baloncesto. Lectura de cómics.",
           rol: "Desarrollador backend",
-          image: "path/to/image",
+          image: require('./assets/Hansell.png'),
         },
       ],
     };

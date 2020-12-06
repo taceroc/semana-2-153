@@ -4,7 +4,7 @@
           <img class="card-img-top img-flex rounded mx-auto" alt="Fotografia del miembro" v-bind:src="member.image"/>
           <div class="card-body">
             <h5 class="card-title text-center">{{member.nombre}}</h5>
-            <p class="card-text">{{member.codigo}}</p>
+            <p class="card-text"><span>Código:</span> {{member.codigo}}</p>
             <p class="card-text">{{member.descripcion}}</p>
             <p class="card-text ">{{member.rol}}</p>
         </div>
@@ -29,5 +29,6 @@
     width: 240px;
     margin-top: 3px;
 }
+
 
 </style>
