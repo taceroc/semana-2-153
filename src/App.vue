@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+
+
+    <div class="container-fluid">
+      <h2 class="text-center text-white bg-dark" id="news">Noticias</h2>
+      <NoticiaApi></NoticiaApi>
+
+    </div>
     <div class="container-fluid text-center">
         <h2 id="team" class="text-center text-white bg-dark">
           Integrantes grupo 153
@@ -13,16 +20,16 @@
           <team-card v-bind:member="item"></team-card>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
 <script>
+import NoticiaApi from "./components/NoticiaApi.vue";
 import TeamCard from "./components/TeamCard.vue";
 
 export default {
   name: "App",
-  components: { TeamCard },
+  components: { TeamCard, NoticiaApi },
   data() {
     return {
       team: [
@@ -63,3 +70,7 @@ export default {
   },
 };
 </script>
+
+
+
+
