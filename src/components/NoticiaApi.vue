@@ -6,7 +6,7 @@
       v-bind:key="index"
     >
       <div class="card text-justify bg-light h-100">
-        <h3 class="p-2 h3-responsive">
+        <h3 class="p-2 h3-responsive text-center">
           {{ noticia.title }}
         </h3>
         <div class="noticias__card__container text-center">
@@ -53,7 +53,7 @@ export default {
 
 <style scoped>
 h3 {
-    height: 115px;
+    min-height: 115px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -62,6 +62,10 @@ h3 {
 img{
     height: 290px;
     width: 540px;
+}
+
+p{
+  min-height: 96px;
 }
 
 </style>
