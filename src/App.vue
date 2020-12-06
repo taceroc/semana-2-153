@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
+        <h2 class="text-center text-white bg-dark">
+          Integrantes grupo 153
+        </h2>
       <div class="row justify-content-center mb-3 mt-0">
         <div
           class="col-sm-6 col-xs-12 col-lg-3 mt-5"
